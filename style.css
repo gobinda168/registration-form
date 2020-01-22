@@ -122,20 +122,21 @@ body {
 .wrapper .form .input-field .check input[type="checkbox"]:before {
   display: block;
 }
-.wrapper .form .input-field .btn{
-    width: 100%;
-    padding: 8px 10px;
-    font-size: 15px;
-    border: 0;
-    background: #fec107;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 3px;
-    outline: none;
+.wrapper .form .input-field .btn {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
 }
 
-.wrapper .form .input-field .btn:last-child{
-    margin-bottom: 0;
+.wrapper .form .input-field .btn:last-child {
+  margin-bottom: 0;
 }
-.wrapper .form .input-field .btn:hover{
-    background: #ffd658;
+.wrapper .form .input-field .btn:hover {
+  background: #ffd658;
+}
