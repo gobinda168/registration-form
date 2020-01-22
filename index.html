@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/8bc8ad2491.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="title">Registration Form</div>
+    <div class="form">
+      <div class="input-field">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" class="input"/>
+      </div>
+      <div class="input-field">
+        <label for="lname">Lasy Name</label>
+        <input type="text" name="lname" id="lname" class="input"/>
+      </div>
+      <div class="input-field">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="input"/>
+      </div>
+      <div class="input-field">
+        <label for="cpassword">Confirm Password</label>
+        <input type="password" name="cpassword" id="cpassword" class="input" />
+      </div>
+      <div class="input-field">
+        <label for="gender">Gender</label>
+        <div class="custom-select">
+          <select>
+            <option value="">Select</option>
+            <option value="male" name="gender">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-field">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="input"/>
+      </div>
+      <div class="input-field">
+        <label for="phone">Phone Number</label>
+        <input type="phone" name="phone" id="phone" class="input"/>
+      </div>
+      <div class="input-field">
+        <label for="address">Address</label>
+        <textarea name="address" id="addr" class="textarea"></textarea>
+      </div>
+      <div class="input-field">
+        <label for="postal">Postal Code</label>
+        <input type="text" name="postal" id="postal" class="input"/>
+      </div>
+      <div class="input-field terms">
+        <label for="fname" class="check">
+          <input type="checkbox" name="fname" id="fname" />
+          <span class="checkmark"></span>
+        </label>
+        <p>Agreed to terms and condition</p>
+      </div>
+    <div class="input-field">
+        <input type="submit" name="Register" id="submitbtn" value="Register" class="btn">        
+    </div>
+    </div>
+  </body>
+</html>
